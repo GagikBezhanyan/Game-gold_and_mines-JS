@@ -1,0 +1,46 @@
+*{
+    box-sizing: border-box;
+    background-color: rgb(108, 174, 185);
+}
+html {
+	scroll-behavior: smooth;
+}
+.container{
+    width: 550px;
+    margin: auto;
+}
+table {
+    background-color: cornsilk;
+    border: 2px solid black;
+    border-collapse: collapse;
+} 
+tr {
+    border: 2px solid black;
+}
+td {
+    background-color: cornsilk;
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+}
+button {
+    background-color: darkgreen;
+    border: 3px solid darkgreen;
+    border-radius: 10px;
+    color: white;
+    display: block;
+    margin:20px auto;
+    padding: 10px 20px;
+}
+button:active {
+    border : 3px inset;
+}
+button:hover {
+    background-color: rgb(15, 70, 8);
+    border-color: rgb(15, 70, 8);
+}
+img {
+	width: 40px;
+    height:40px;
+}
